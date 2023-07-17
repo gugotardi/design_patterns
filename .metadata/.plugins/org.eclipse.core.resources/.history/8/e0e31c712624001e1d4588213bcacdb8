@@ -1,0 +1,13 @@
+package Square;
+
+public class SquarePeg {
+	private double width;
+
+	public SquarePeg() {}
+	
+	public SquarePeg(double radius) {
+		this.radius = radius;
+	}
+
+	
+}

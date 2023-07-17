@@ -1,0 +1,12 @@
+Os Design Patterns (Padrões de Projetos) 
+são arquiteturas testadas para construir softwares orientados a objetos flexíveis e sustentáveis. 
+Os padrões ajudam a reduzir substancialmente a complexidade do processo de design.
+São soluçõe stipicas para problemas comuns em projeto de software.
+
+Os padrões criacionais fornecem mecanismos de criação de objetos que aumentam a flexibilidade e a reutilização de código.
+
+Os padrões estruturais explicam como montar objetos e classes em estruturas maiores, enquanto ainda mantém as estruturas flexíveis e eficientes.
+
+Os padrões comportamentais cuidam da comunicação eficiente e da assinalação de responsabilidades entre objetos.
+
+Fonte https://refactoring.guru/pt-br/design-patterns

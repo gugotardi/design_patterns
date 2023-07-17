@@ -1,0 +1,21 @@
+Singleton: O padrão Singleton permite criar objetos únicos para os quais há apenas uma instância. 
+Este padrão oferece um ponto de acesso global, assim como uma variável global, porém sem as desvantagens das variáveis globais. 
+Para entendermos e usarmos bem o padrão de Projeto Singleton é necessário apenas dominar bem as variáveis e métodos de classe estáticos além dos modificadores de acesso. 
+Garantir que uma classe tenha somente uma instância no programa e fornecer um ponto de acesso global para a mesma. Ele garanti o acesso apenas uma instânica do projeto em
+uma aplicação.
+Ele pode substituir váriaveis globais, o singleton proteje a instância, deixando ela privada. Assim não ocorre de sobrescrever como ocorre com uma variável global.
+Exemplos: Interfaces gráficas, sistemas de arquivos, servidores de impressão, loggers.
+
+Padrão criacional.
+
+Vantagens
+
+Acesso controlado a instância única
+Fácil permitir um número maior de instâncias caso mude de ideia
+Usa lazy instantiation, o Singleton só é criado no momento de uso
+Substitui variáveis globais
+
+Desvantagens
+É mais díficil de testar
+VIola o príncipio da repsonsabilidade única
+Requer tratamento especial em casos de concorrência

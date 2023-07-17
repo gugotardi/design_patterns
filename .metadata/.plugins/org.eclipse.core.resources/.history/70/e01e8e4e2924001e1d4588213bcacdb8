@@ -1,0 +1,16 @@
+import round.RoundHole;
+import round.RoundPeg;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		RoundHole hole = new RoundHole(5);
+		RoundPeg rpeg = new RoundPeg(5);
+		
+		if(hole.fits(rpeg)) {
+			System.out.print("Round peg r5 fits round hole r5.");
+		}
+
+	}
+
+}

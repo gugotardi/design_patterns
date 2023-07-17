@@ -1,0 +1,6 @@
+package checkboxes;
+
+public interface Button {
+	void paint();
+
+}

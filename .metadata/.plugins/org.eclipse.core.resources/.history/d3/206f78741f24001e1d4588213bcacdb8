@@ -1,0 +1,15 @@
+package factories;
+
+import buttons.Button;
+import buttons.MacOSButton;
+
+public class MacOsFactory implements GUIFactory {
+	
+	@Override
+	public Button createButton(){
+		
+		return new MacOSButton();
+		
+	}
+
+}
